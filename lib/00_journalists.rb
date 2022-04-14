@@ -17,7 +17,7 @@ puts "Il y a #{journalists.count { |l| l.length == 6 }} handles contenant 5 cara
 
 # Combien commencent par une majuscule (première lettre juste après le @) ?
 
-puts "Il y a #{journalists.count} handles qui commencent par une majuscule."
+# puts "Il y a #{journalists.count} handles qui commencent par une majuscule." NOT DONE
 
 # Trie la liste de handle par ordre alphabétique.
 journalists.sort
